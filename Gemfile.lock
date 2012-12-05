@@ -1,0 +1,52 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.2.9)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    bowtie (0.5.8)
+      sinatra (>= 0.9.4)
+    bson (1.8.0)
+      activesupport
+    bson_ext (1.8.0)
+      bson (~> 1.8.0)
+    builder (3.1.4)
+    daemons (1.1.9)
+    eventmachine (1.0.0)
+    i18n (0.6.1)
+    jnunemaker-validatable (1.8.4)
+      activesupport (>= 2.3.4)
+    mongo (1.8.0)
+      bson (~> 1.8.0)
+    mongo_mapper (0.8.6)
+      activesupport (>= 2.3.4)
+      jnunemaker-validatable (~> 1.8.4)
+      plucky (~> 0.3.6)
+    multi_json (1.4.0)
+    plucky (0.3.8)
+      mongo (~> 1.3)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bowtie
+  bson_ext
+  builder
+  i18n
+  mongo_mapper
+  rack
+  sinatra
+  thin
